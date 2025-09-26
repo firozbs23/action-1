@@ -14,7 +14,7 @@ jobs:
 
             - name: Install Cowsay Program
               run: |
-                chmod +x ascii-script.sh
+                sudo chmod +x ascii-script.sh
                 ./ascii-script.sh
          #     run: sudo apt-get install cowsay -y
 
