@@ -11,6 +11,11 @@ jobs:
 
             - name: List Repo File
               run: ls -ltra
+            
+            - name: Workflow Directory
+              run: |
+                  cd .github/workflows
+                  ls -al
 
             - name: Install Cowsay Program
               run: |
