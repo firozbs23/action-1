@@ -19,8 +19,8 @@ jobs:
 
             - name: Install Cowsay Program
               run: |
-                sudo chmod +x .github/workflows/ascii-script.sh
-                ./.github/workflows/ascii-script.sh
+                sudo chmod +x ascii-script.sh
+                ./ascii-script.sh
          #     run: sudo apt-get install cowsay -y
 
          #   - name: Execute Cowsay CMD
